@@ -1,0 +1,12 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'MuseoModerno', cursive;
+}
+h5,
+h4 {
+    font-weight: bold;
+}

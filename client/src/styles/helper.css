@@ -1,0 +1,31 @@
+.l-top {
+    margin-top: 10vh;
+}
+.m-top {
+    margin-top: 5vh;
+}
+.s-top {
+    margin-top: 1.33vh;
+}
+.sm-top {
+    margin-top: 3.33vh;
+}
+
+.l-bottom {
+    margin-bottom: 10vh;
+}
+.m-bottom {
+    margin-bottom: 5vh;
+}
+.s-bottom {
+    margin-bottom: 1.33vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
