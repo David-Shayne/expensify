@@ -24,7 +24,9 @@ export class Header extends Component {
                             </li>
 
                             <li>
-                                <a href="www.davidshayne.co.za">Portfolio</a>
+                                <a href="https://www.davidshayne.co.za">
+                                    Portfolio
+                                </a>
                             </li>
                         </ul>
                     </div>
