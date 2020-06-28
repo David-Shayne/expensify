@@ -59,7 +59,7 @@ class Transactions extends Component {
                         <option value="deposit">Deposit</option>
                     </select>
                     <button
-                        className="waves-effect waves-light btn s-top"
+                        className="waves-effect waves-light btn s-top blue darken-3"
                         type="submit"
                         onClick={e => {
                             e.preventDefault();

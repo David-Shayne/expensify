@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Overview.css';
 import '../styles/helper.css';
+import { connect } from 'react-redux';
 
 export class Accounts extends Component {
     render() {
@@ -8,14 +9,18 @@ export class Accounts extends Component {
             <div className="accounts m-bottom">
                 <h5>Accounts</h5>
                 <div className="blue-text text-darken-1 div-box col">
-                    <p>Cash</p> <span>$16,854</span>
+                    <p>Cash</p> <span>R1,200</span>
                 </div>
                 <div className="div-box col">
-                    <p>Credit Debt</p> <span>-$3,120</span>
+                    <p>Credit Debt</p> <span>-R3120</span>
                 </div>
             </div>
         );
     }
 }
 
-export default Accounts;
+const mapStoreToProps = store => ({
+    total: store.history.total
+});
+
+export default connect(mapStoreToProps, null)(Accounts);
